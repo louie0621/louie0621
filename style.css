@@ -1,0 +1,164 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.body{
+	background-image: url(img/bg.jpg);
+	width: 100%;
+	height: 650px;
+}
+.galbody{
+	background-image: url(img/bg.jpg);
+	width: 100%;
+	height: 850px;
+}
+.mainn{
+	left: 50%;
+	right: 50%;
+	transform: translate(-50%,-50%);
+	width: 1000px;
+	position: absolute;
+}
+.header{
+	position: absolute;
+	background: rgb(0,0,0,0.5);
+	height: 150px;
+	width: 100%;
+	border-bottom: 1px rgb(0,0,0,0.5);
+	box-shadow: 4px 4px 4px rgb(0,0,0,0.5);
+}
+.headerbtn{
+	left: 50%;
+	position: absolute;
+	top: 65%;
+	width: 400px;
+}
+.headerbtn ul,li{
+	position: relative;
+	display: inline;
+}
+.headerbtn a{
+	text-decoration: none;
+	padding: 10px;
+	background-color: gray;	
+	font-size: 25px;
+	color: white;
+	border-radius: 10px;
+	
+}
+.headerbtn a:hover{
+	background-color: darkgray;
+	border-color: darkgray;
+	color: black;
+	box-shadow: 4px 4px 4px darkgray;
+}
+.menu{
+	background-color: rgb(4,27,120,0.5);
+	width: 100%;
+	height: 430px;
+	margin-top: 16%;
+	position: absolute;
+}
+.mainn .img1{
+	border-radius: 50%;
+	position: absolute;
+	left: 5%;
+	outline-color: white;
+	border: 2px solid white;
+	margin-top: 5%;
+}
+.mainn .img2{
+	position: absolute;
+	margin-top: 25%;
+	border-radius: 20px;
+	left: 60%;
+	box-shadow: 4px 4px 4px black;
+	transition: all 1s;
+}
+.mainn .img2:hover{
+	transform: scale(1.1);
+}
+.footer{
+	background: rgb(104,104,107,0.5);
+	margin-top: 59.5%;
+	position: absolute;
+	height: 50px;
+	width: 100%;
+}
+.footer label{
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	margin-top: 20px;
+	left: 50%;
+	transform: translate(-50% , -50%);
+}
+.menu1{
+	color: white;
+	margin-top: 10%;
+	margin-left: 50px;
+	width: 500px;
+}
+.promenu1{
+	color: white;
+	margin-top: 10%;
+	margin-left: 50px;
+}
+.promenu1 label{
+	font-size: 25px;
+}
+.galmenu{
+	background-color: rgb(4,27,120,0.5);
+	width: 100%;
+	height: 615px;
+	margin-top: 16%;
+	position: absolute;
+}
+.galfooter{
+	background: rgb(104,104,107,0.5);
+	margin-top: 78%;
+	position: absolute;
+	height: 50px;
+	width: 100%;
+}
+.galfooter label{
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	margin-top: 20px;
+	left: 50%;
+	transform: translate(-50% , -50%);
+}
+.galpromenu1{
+	margin-top: 10%;
+	margin-left: 90px;
+}
+.galpromenu1 img{
+	border-radius: 10px;
+	border: 1px solid white;
+	transition: 1s;
+}
+.galpromenu1 img:hover{
+	transform: scale(1.1);
+}
+.conpromenu1{
+	margin-top: 20%;
+	position: absolute;
+	left: 60%;
+	transform: translate(-50% , -50%);
+	color: white;
+	width: 500px;
+}
+.conpromenu1 label{
+	font-size: 25px;
+}
+.conpromenu1 input{
+	padding: 5px;
+	width: 300px;
+	border-radius: 5px;
+	font-weight: bold;
+}
+.consub:hover{
+	color: white;
+	background: gray;
+}
